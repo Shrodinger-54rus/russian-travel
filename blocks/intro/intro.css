@@ -1,25 +1,28 @@
-.lead {
-  padding: 0 0 92px;
-  margin: 0 auto;
+.intro {
   display: flex;
   flex-direction: column;
   max-width: 928px;
+  margin: 0 auto;
+  padding: 0 0 92px;
+  align-items: flex-start;
+
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    padding: 0 48px 92px;
+  .intro {
+    margin: 0;
+    padding-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    padding: 0 0 88px;
+  .intro {
+    padding: 0 24px 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .lead {
-    padding: 0 0 64px;
+  .intro {
+    padding: 0 16px 64px;
   }
 }
