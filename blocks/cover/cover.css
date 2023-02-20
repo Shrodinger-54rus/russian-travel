@@ -1,11 +1,7 @@
 .cover {
-  display: grid;
   max-width: 1184px;
-  grid-template-columns: 1fr;
   margin: 0 auto;
   padding: 0 0 92px;
-  justify-items: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,7 +9,6 @@
     padding: 0 0 88px;
   }
 }
-
 
 @media screen and (max-width: 428px) {
   .cover {

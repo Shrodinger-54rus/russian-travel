@@ -1,12 +1,6 @@
 .cover__link {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  background: #2A2C2F;
-  opacity: 0.8;
-  transition: opacity 0.6s linear;
-}
-
-.cover__link:hover {
-  background: #2A2C2F;
-  opacity: 0.3;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
 }
