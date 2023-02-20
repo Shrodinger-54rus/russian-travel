@@ -3,4 +3,5 @@
   font-weight: 400;
   line-height: calc(22/18);
   border-bottom: 1px #FFFFFF solid;
+  align-self: start;
 }
