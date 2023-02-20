@@ -7,6 +7,11 @@
   gap: 32px;
 }
 
+.cover__text:hover + .cover__link {
+  background: #2A2C2F;
+  opacity: 0.3;
+}
+
 @media screen and (max-width: 600px) {
   .cover__text {
     gap: 16px;
