@@ -4,6 +4,7 @@
   font-weight: 900;
   line-height: calc(76/72);
   margin: 0;
+  max-width: 460px;
 }
 
 @media screen and (max-width: 768px) {

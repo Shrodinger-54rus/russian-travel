@@ -34,6 +34,6 @@
     "image"
     "paragraphs";
     grid-template-columns: 100%;
-    gap: 12px;
+    gap: 32px;
   }
 }

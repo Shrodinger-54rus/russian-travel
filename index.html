@@ -10,20 +10,22 @@
   <body class="page">
     <header class="header">
       <img src="./images/header__logo.svg" alt="логотип шапки" class="header__logo">
-      <div class="header__lang-links">
-        <a href="#" class="link header__lang-link">Ru</a>
-        <a href="#" class="link header__lang-link">En</a>
-      </div>
+      <nav class="header__lang-links list">
+        <li class="header__lang-link"><a href="#" class="link">Ru</a></li>
+        <li class="header__lang-link"><a href="#" class="link">En</a></li>
+      </nav>
     </header>
     <main class="content">
       <section class="lead">
-        <h1 class="lead__title align-center">Путешествия по России</h1>
+        <h1 class="lead__title align-center">Путешествия по&nbsp;России</h1>  
         <p class="lead__subtitle align-center">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead__image.jpg" alt="полка поезда" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__image-container">
+          <img src="./images/lead__image.jpg" alt="полка поезда" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь
           поехать, но только 36% планируют провести отпуск в родной стране. Мол,
           чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная
@@ -56,11 +58,10 @@
         <img src="./images/12_photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
       </div>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">url</h3>
-            <a href="http://park-kosa.ru" class="place__link link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link link" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
           <div class="place__paragraphs">
@@ -72,12 +73,11 @@
               немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает
               суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">url</h3>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link link" target="_blank">National Geographic</a>
           </div>
           <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
           <div class="place__paragraphs">
@@ -90,12 +90,11 @@
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">url</h3>
-            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link link">YouTube
+            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link link" target="_blank">YouTube
             </a>
           </div>
           <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
@@ -109,12 +108,11 @@
             По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся
             косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">url</h3>
-            <a href="https://vk.com/baikalmile" class="place__link link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__link link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
           <div class="place__paragraphs">
@@ -127,12 +125,11 @@
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд
               — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article   class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">url</h3>
-            <a href="http://vodlozero.ru" class="place__link link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
           <div class="place__paragraphs">
@@ -144,27 +141,26 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link link">
           <div class="cover__text">
-            <h2 class="cover__title align-center">До Байкала «на собаках»</h2>
+            <h2 class="cover__title align-center">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
             <p class="cover__subtitle align-center">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </div>
-          <img src="./images/cover-trains.jpg" alt="сортировочная станция" class="cover__background">
         </a>
       </section>  
-    </main>
+    </main> 
     <footer class="footer">
-      <ul class="footer__links list">
-        <li class="footer__link"><a  href="https://yandex.ru/maps" class="link">Карты</a></li>
-        <li class="footer__link"><a  href="https://yandex.ru/pogoda" class="link">Погода</a></li>
-        <li class="footer__link"><a  href="https://rasp.yandex.ru" class="link">Расписание</a></li>
-        <li class="footer__link"><a  href="https://calendar.yandex.ru" class="link">Календарь</a></li>
-        <li class="footer__link"><a  href="https://travel.yandex.ru" class="link">Путешествия</a></li>
-      </ul>
-      <h3 class="footer__copyright">© 2023. Горбунов Кирилл</h3>
+      <nav class="footer__links list">
+        <li class="footer__link"><a  href="https://yandex.ru/maps" class="link" target="_blank">Карты</a></li>
+        <li class="footer__link"><a  href="https://yandex.ru/pogoda" class="link" target="_blank">Погода</a></li>
+        <li class="footer__link"><a  href="https://rasp.yandex.ru" class="link" target="_blank">Расписание</a></li>
+        <li class="footer__link"><a  href="https://calendar.yandex.ru" class="link" target="_blank">Календарь</a></li>
+        <li class="footer__link"><a  href="https://travel.yandex.ru" class="link" target="_blank">Путешествия</a></li>
+      </nav>
+      <p class="footer__copyright">© 2023. Горбунов Кирилл</p>
     </footer>
   </body>
 </html>
