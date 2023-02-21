@@ -9,7 +9,7 @@
 * БЭМ
 * Эффект наведения :hover
 
-* ### [Ссылка на веб-страницу проекта](https://shrodinger-54rus.github.io/russian-travel/)
+### [Ссылка на веб-страницу проекта](https://shrodinger-54rus.github.io/russian-travel/)
 
 **Figma**
 
