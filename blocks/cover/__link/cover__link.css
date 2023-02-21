@@ -6,6 +6,8 @@
   flex-direction: column;
   padding-bottom: calc(740/1184*100%);
   position: relative;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .cover__link::before {
