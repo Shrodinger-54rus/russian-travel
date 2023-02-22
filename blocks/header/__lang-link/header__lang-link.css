@@ -4,10 +4,6 @@
   line-height: calc(28/24);
 }
 
-.header__lang-link:focus {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
