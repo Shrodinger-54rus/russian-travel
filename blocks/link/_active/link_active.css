@@ -1,3 +1,4 @@
-.link_active:focus {
+.link_active {
   text-decoration: underline;
+  pointer-events: none;
 }
